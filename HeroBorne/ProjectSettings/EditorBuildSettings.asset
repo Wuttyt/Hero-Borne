@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/World 2-1.unity
     guid: ad77f7b47d54a804bb9d0f71ec7a8e13
+  - enabled: 1
+    path: Assets/Scenes/World 2-2.unity
+    guid: 3e523ba9b30fb614cbdbf1b1f288222f
+  - enabled: 1
+    path: Assets/Scenes/World 2-3.unity
+    guid: 06b4fb472af08894190645e267a0d60a
   m_configObjects: {}
