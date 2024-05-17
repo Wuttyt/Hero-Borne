@@ -248,6 +248,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4064797442108245728, guid: 0d0d99d67cd4e1445ad2309d456f1c46, type: 3}
+      propertyPath: CamOffset.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4064797442108245728, guid: 0d0d99d67cd4e1445ad2309d456f1c46, type: 3}
+      propertyPath: CamOffset.z
+      value: -3.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8062016349812319453, guid: 0d0d99d67cd4e1445ad2309d456f1c46, type: 3}
       propertyPath: m_Depth
       value: -1

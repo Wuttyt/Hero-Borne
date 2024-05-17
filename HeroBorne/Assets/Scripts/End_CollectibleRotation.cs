@@ -20,8 +20,10 @@ public class End_CollectibleRotation : MonoBehaviour
 
         while (true) // Infinite loop
         {
+            //This if and else statement will simply keep rotating the gameObject, once it reaches a certain angle, it rotates the opposite way, and does the same both left to right, right to left.
             if (rotatingRight)
             {
+                //This calculates and adds onto the current angle by multiplying the speed and time passed constantly
                 currentAngle += rotationSpeed * Time.deltaTime;
                 if (currentAngle >= rotationAngle)
                 {
@@ -31,6 +33,7 @@ public class End_CollectibleRotation : MonoBehaviour
             }
             else
             {
+                //The opposite of the formula used above, just subtractin from the currentangle instead of adding onto it
                 currentAngle -= rotationSpeed * Time.deltaTime;
                 if (currentAngle <= -rotationAngle)
                 {
@@ -39,8 +42,10 @@ public class End_CollectibleRotation : MonoBehaviour
                 }
             }
 
+            //This will rotate the game object around the Z-axis by currentAngle degrees.
             transform.rotation = Quaternion.Euler(0, 0, currentAngle);
             yield return null; // Wait for the next frame
+
         }
     }
 }

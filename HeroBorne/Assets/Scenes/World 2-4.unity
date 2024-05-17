@@ -418,7 +418,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 67299080c0bbba34696a8960d930779d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -539,7 +539,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3994329518688308678, guid: f009e3870a53d7c4a8c19c725c73f26a, type: 3}
       propertyPath: JumpVelocity
-      value: 8
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 3994329518688308678, guid: f009e3870a53d7c4a8c19c725c73f26a, type: 3}
       propertyPath: GroundLayer.m_Bits
@@ -3518,6 +3518,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3606356416202885745, guid: eaf3348b4ec66684f9f04f0076f8602b, type: 3}
+      propertyPath: bouncepeak
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3606356416202885745, guid: eaf3348b4ec66684f9f04f0076f8602b, type: 3}
       propertyPath: bounceheight
       value: 809
